@@ -54,12 +54,6 @@ def load_vectorizer():
     global _VECTORIZER
     if _VECTORIZER is None:
         _VECTORIZER = joblib.load(ARTIFACT_DIR / "vectorizer_final.joblib")
-    return _VECTORIZER
-
-def load_vectorizer():
-    global _VECTORIZER
-    if _VECTORIZER is None:
-        _VECTORIZER = joblib.load(ARTIFACT_DIR / "vectorizer_final.joblib")
 
         # --- Debugging: Check if vectorizer is fitted ---
         import streamlit as st
