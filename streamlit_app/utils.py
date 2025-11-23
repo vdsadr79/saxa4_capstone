@@ -50,6 +50,12 @@ def basic_clean(text: str) -> str:
 # Artifact loaders (cached)
 # ---------------------------------------------------------------------
 
+def load_model():
+    global _MODEL
+    if _MODEL is None:
+        _MODEL = joblib.load(ARTIFACT_DIR / "log_reg_final.joblib")
+    return _MODEL
+
 def load_vectorizer():
     global _VECTORIZER
     if _VECTORIZER is None:
@@ -69,6 +75,12 @@ def load_context_df():
     if _CONTEXT_DF is None:
         _CONTEXT_DF = pd.read_csv(ARTIFACT_DIR / "context_table_agency_scores.csv")
     return _CONTEXT_DF
+
+def load_label_encoder():
+    global _LABEL_ENCODER
+    if _LABEL_ENCODER is None:
+        _LABEL_ENCODER = joblib.load(ARTIFACT_DIR / "label_encoder_final.joblib")
+    return _LABEL_ENCODER
 
 # ---------------------------------------------------------------------
 # ML inference
