@@ -62,11 +62,19 @@ def load_vectorizer():
         _VECTORIZER = joblib.load(ARTIFACT_DIR / "vectorizer_final.joblib")
     return _VECTORIZER
 
-def load_label_encoder():
-    global _LABEL_ENCODER
-    if _LABEL_ENCODER is None:
-        _LABEL_ENCODER = joblib.load(ARTIFACT_DIR / "label_encoder_final.joblib")
-    return _LABEL_ENCODER
+def load_vectorizer():
+    global _VECTORIZER
+    if _VECTORIZER is None:
+        _VECTORIZER = joblib.load(ARTIFACT_DIR / "vectorizer_final.joblib")
+
+        # --- Debugging: Check if vectorizer is fitted ---
+        import streamlit as st
+        st.write("Vectorizer fitted?", hasattr(_VECTORIZER, "idf_"))
+        # Alternatively (if you don't want UI output):
+        # print("Vectorizer fitted?", hasattr(_VECTORIZER, "idf_"))
+        # -----------------------------------------------
+
+    return _VECTORIZER
 
 def load_context_df():
     global _CONTEXT_DF
