@@ -50,12 +50,6 @@ def basic_clean(text: str) -> str:
 # Artifact loaders (cached)
 # ---------------------------------------------------------------------
 
-def load_model():
-    global _MODEL
-    if _MODEL is None:
-        _MODEL = joblib.load(ARTIFACT_DIR / "log_reg_final.joblib")
-    return _MODEL
-
 def load_vectorizer():
     global _VECTORIZER
     if _VECTORIZER is None:
