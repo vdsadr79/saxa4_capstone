@@ -59,14 +59,21 @@ def load_model():
 def load_vectorizer():
     global _VECTORIZER
     if _VECTORIZER is None:
-        _VECTORIZER = joblib.load(ARTIFACT_DIR / "vectorizer_final_fitted.joblib")
-        # --- Debugging: Check if vectorizer is fitted ---
+        vec_path = ARTIFACT_DIR / "vectorizer_final_fitted.joblib"
+        _VECTORIZER = joblib.load(vec_path)
+
+        import os
         import streamlit as st
+
+        st.write("ARTIFACT_DIR:", str(ARTIFACT_DIR))
+        st.write("Artifacts present:", os.listdir(ARTIFACT_DIR))
+        st.write("Vectorizer path:", str(vec_path))
+        st.write("Vectorizer file size (bytes):", os.path.getsize(vec_path))
+        st.write("Vectorizer type:", str(type(_VECTORIZER)))
         st.write("Vectorizer fitted?", hasattr(_VECTORIZER, "idf_"))
-        # Alternatively (if you don't want UI output):
-        # print("Vectorizer fitted?", hasattr(_VECTORIZER, "idf_"))
-        # -----------------------------------------------
+
     return _VECTORIZER
+
 
 def load_context_df():
     global _CONTEXT_DF
