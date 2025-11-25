@@ -17,7 +17,8 @@ st.write(
     """
     This application analyzes a federal AI use case narrative and:
     - predicts whether the use case is **rights-impacting**, **safety-impacting**, **both**, or **neither**,  
-    - identifies the **top TF-IDF keywords** influencing the model,  
+    - surfaces **model-influential TF-IDF keywords**,  
+    - and highlights **TF-IDF keywords drawn directly from this narrative**,   
     - merges **agency-level governance context**,  
     - and generates a short **policy note** using an LLM.  
     """
@@ -81,8 +82,13 @@ if run_button:
         st.write(f"**Confidence:** {result['confidence']}")
         st.json(result["class_probabilities"])
 
-        st.subheader("🔑 TF-IDF Keywords")
-        st.write(result["keywords"])
+        st.subheader("🔑 TF-IDF Keywords (Model-Influential)")
+        # Prefer the new field, fall back to old "keywords" for safety
+        st.write(result.get("model_top_terms") or result.get("keywords", []))
+
+        st.subheader("📝 TF-IDF Keywords (From This Narrative)")
+        st.write(result.get("input_top_terms", []))
+       
 
         st.subheader("🏛️ Agency Governance Context")
         if result["agency_context"] is None:
