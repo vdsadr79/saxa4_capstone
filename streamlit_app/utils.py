@@ -91,8 +91,51 @@ def load_label_encoder():
 # ML inference
 # ---------------------------------------------------------------------
 
+def _get_model_top_terms(
+    model,
+    vectorizer,
+    class_index: int,
+    top_n: int = 8,
+) -> List[str]:
+    """
+    Get the most model-influential terms for a given class index
+    based on the logistic regression coefficients.
+    """
+    coef = model.coef_[class_index]
+    feature_names = vectorizer.get_feature_names_out()
+
+    # largest positive coefficients for this class
+    top_idx = np.argsort(coef)[-top_n:][::-1]
+    return [feature_names[i] for i in top_idx]
+
+
+def _get_input_top_terms(
+    vectorizer,
+    X_vec,
+    top_n: int = 8,
+) -> List[str]:
+    """
+    Get the most important TF-IDF terms actually present in this input.
+    """
+    feature_names = vectorizer.get_feature_names_out()
+    row = X_vec.toarray().ravel()
+
+    # only consider terms that appear in this document
+    non_zero_idx = np.where(row > 0)[0]
+    if non_zero_idx.size == 0:
+        return []
+
+    # sort by TF-IDF weight within the non-zero indices
+    top_local_idx = non_zero_idx[np.argsort(row[non_zero_idx])][-top_n:][::-1]
+    return [feature_names[i] for i in top_local_idx]
+
 def predict_impact(text: str) -> Dict[str, Any]:
-    """Clean input, vectorize, and predict impact class + probabilities."""
+    """
+    Clean input, vectorize, and predict impact class + probabilities.
+    Also returns:
+      - model_top_terms: global model-influential terms for the predicted class
+      - input_top_terms: top TF-IDF terms actually present in this input
+    """
     model = load_model()
     vectorizer = load_vectorizer()
     le = load_label_encoder()
@@ -104,6 +147,19 @@ def predict_impact(text: str) -> Dict[str, Any]:
     idx = int(probs.argmax())
     pred_label = le.inverse_transform([idx])[0]
 
+    # global (model) keywords and local (input) keywords
+    model_top_terms = _get_model_top_terms(
+        model=model,
+        vectorizer=vectorizer,
+        class_index=idx,
+        top_n=8,
+    )
+    input_top_terms = _get_input_top_terms(
+        vectorizer=vectorizer,
+        X_vec=X_vec,
+        top_n=8,
+    )
+
     result = {
         "cleaned_input": cleaned,
         "predicted_class": pred_label,
@@ -112,33 +168,11 @@ def predict_impact(text: str) -> Dict[str, Any]:
         "class_probabilities": {
             le.classes_[i]: round(float(p), 4) for i, p in enumerate(probs)
         },
+        "model_top_terms": model_top_terms,
+        "input_top_terms": input_top_terms,
     }
     return result
 
-# ---------------------------------------------------------------------
-# TF-IDF keywords (explainability)
-# ---------------------------------------------------------------------
-
-def extract_top_tfidf_keywords(
-    model,
-    vectorizer,
-    text: str,
-    top_n: int = 8
-) -> List[str]:
-    """
-    Extract top TF-IDF-weighted keywords for the predicted class.
-    Mirrors notebook logic.
-    """
-    cleaned = basic_clean(text)
-    X = vectorizer.transform([cleaned])
-
-    # pick coefficient vector for the most likely class
-    probs = model.predict_proba(X)[0]
-    coef = model.coef_[int(np.argmax(probs))]
-
-    feature_names = vectorizer.get_feature_names_out()
-    top_idx = np.argsort(coef)[-top_n:]
-    return [feature_names[i] for i in top_idx]
 
 # ---------------------------------------------------------------------
 # Governance context lookup
@@ -255,18 +289,14 @@ def score_row_with_llm(text: str, agency: str, model_name: str = "gpt-4o-mini") 
     """
     Convenience wrapper for Streamlit:
     ML prediction + keywords + agency context + LLM note.
-    """
-    model = load_model()
-    vectorizer = load_vectorizer()
 
+    - Uses model_top_terms (global, model-influential) for the LLM.
+    - Also exposes input_top_terms for the UI.
+    """
     pred = predict_impact(text)
 
-    keywords = extract_top_tfidf_keywords(
-        model=model,
-        vectorizer=vectorizer,
-        text=pred["cleaned_input"],
-        top_n=8
-    )
+    # use model-influential terms for the policy note
+    keywords_for_llm = pred.get("model_top_terms", [])
 
     agency_ctx = get_agency_context(agency)
 
@@ -275,15 +305,17 @@ def score_row_with_llm(text: str, agency: str, model_name: str = "gpt-4o-mini") 
         predicted_class=pred["predicted_class"],
         confidence=pred["confidence"],
         class_probabilities=pred["class_probabilities"],
-        keywords=keywords,
+        keywords=keywords_for_llm,
         agency_context=agency_ctx,
-        model_name=model_name
+        model_name=model_name,
     )
 
     return {
         **pred,
-        "keywords": keywords,
+        # keep this for backwards compatibility with old UI
+        "keywords": keywords_for_llm,
         "agency_context": agency_ctx,
         "policy_note": note,
         "llm_model": model_name,
     }
+
