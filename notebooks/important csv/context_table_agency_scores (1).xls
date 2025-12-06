@@ -1,0 +1,341 @@
+3_agency,4_bureau,n_cases,pct_rights_impacting,pct_safety_impacting,mean_governance,mean_transparency,mean_fairness
+Board of Governors of the Federal Reserve System,Division of Board Members,1,0.0,0.0,,,
+Board of Governors of the Federal Reserve System,Division of Consumer and Community Affairs,1,0.0,0.0,0.333,0.0,
+Board of Governors of the Federal Reserve System,Division of Information Technology,6,0.0,0.0,0.611,0.0,
+Board of Governors of the Federal Reserve System,Division of International Finance,2,0.0,0.0,,,
+Board of Governors of the Federal Reserve System,Division of Monetary Affairs,2,0.0,0.0,0.333,0.0,
+Board of Governors of the Federal Reserve System,Division of Research and Statistics,9,0.0,0.0,0.381,0.125,
+Board of Governors of the Federal Reserve System,Division of Reserve Bank Operations and Payment Systems,1,0.0,0.0,,,
+Board of Governors of the Federal Reserve System,Division of Supervision and Regulation,26,0.0,0.0,0.312,0.062,
+Board of Governors of the Federal Reserve System,Office of the Inspector General,1,0.0,0.0,,,
+Board of Governors of the Federal Reserve System,Office of the Secretary,1,0.0,0.0,1.0,0.0,
+Commodity Futures Trading Commission,DCR,1,0.0,0.0,0.5,0.0,
+Commodity Futures Trading Commission,DOD,1,0.0,0.0,0.667,0.0,
+Commodity Futures Trading Commission,DOE,1,0.0,0.0,0.5,0.0,1.0
+Commodity Futures Trading Commission,MPD,1,0.0,0.0,0.5,0.0,
+Consumer Financial Protection Bureau,CFPB,4,0.0,0.0,,,
+Department of Agriculture,APHIS: Animal and Plant Health Inspection Service,11,0.0,0.0,0.03,0.0,
+Department of Agriculture,APHIS: Animal and Plant Health Inspection Service; AMS: Agricultural Marketing Service,1,0.0,0.0,0.5,,
+Department of Agriculture,ARS: Agricultural Research Service,5,0.0,0.0,0.2,0.5,
+Department of Agriculture,ERS: Economic Research Service,1,0.0,0.0,0.0,,
+Department of Agriculture,FNS: Food and Nutrition Service,2,0.0,0.0,0.0,1.0,
+Department of Agriculture,FPAC-BC: FPAC Business Center,1,0.0,0.0,0.0,1.0,
+Department of Agriculture,FS: Forest Service,29,0.0,0.0,0.092,0.529,
+Department of Agriculture,FS: Forest Service; Forest Service Research & Development,2,0.0,0.0,0.0,0.5,
+Department of Agriculture,FS: Forest Service; USDOT: US Department of Transportation,1,0.0,0.0,0.0,,
+Department of Agriculture,FSA: Farm Service Agency,2,0.0,0.0,0.0,0.0,
+Department of Agriculture,FSIS: Food Safety and Inspection Service,3,0.0,0.0,0.0,,
+Department of Agriculture,NASS: National Agricultural Statistics Service,10,0.0,0.0,0.167,0.25,
+Department of Agriculture,NIFA: National Institute of Food and Agriculture,1,0.0,0.0,0.0,,
+Department of Agriculture,NRCS: Natural Resources Conservation Service,8,0.0,0.0,0.146,0.25,
+Department of Agriculture,OASCR: Office of the Assistant Secretary for Civil Rights,1,0.0,0.0,0.0,,
+Department of Agriculture,OCIO: Office of the Chief Information Officer,6,0.0,0.0,0.111,0.0,
+Department of Agriculture,"OSSP: Office of Safety, Security, and Protection",1,1.0,0.0,0.0,0.5,1.0
+Department of Agriculture,RMA: Risk Management Agency,4,0.75,0.0,0.0,0.5,0.667
+Department of Commerce,BEA - Bureau of Economic Analysis,3,0.0,0.0,0.25,0.0,0.0
+Department of Commerce,CENSUS - U.S. Census Bureau,17,0.0,0.0,0.051,0.167,
+Department of Commerce,FIRSTNET - First Responder Network Authority,2,0.0,0.0,,,
+Department of Commerce,ITA - International Trade Administration,3,0.0,0.0,0.389,0.5,0.0
+Department of Commerce,NIST - National Institute of Science and Technology,2,0.0,0.0,0.5,0.75,0.0
+Department of Commerce,NOAA - National Oceanic and Atmospheric Administration,16,0.0,0.0,0.0,0.125,0.0
+Department of Commerce,National Telecommunications and Information Administration,5,0.0,0.0,0.0,0.0,
+Department of Commerce,USPTO - United States Patent and Trade Office,9,0.0,0.0,0.385,0.333,0.0
+Department of Education,CAM,1,0.0,0.0,1.0,,0.0
+Department of Education,FSA,5,0.0,0.0,1.0,,0.0
+Department of Education,GMPD,2,0.0,0.0,1.0,,0.0
+Department of Education,IES,3,0.0,0.0,1.0,,0.0
+Department of Education,OCDO,4,0.0,0.0,1.0,,0.0
+Department of Education,OCIO,5,0.0,0.0,1.0,,0.0
+Department of Education,OCO,1,0.0,0.0,1.0,,0.0
+Department of Education,OCR,2,0.0,0.0,1.0,,0.0
+Department of Education,OCTAE,2,0.0,0.0,1.0,,0.0
+Department of Education,ODS,3,0.0,0.0,1.0,,0.0
+Department of Education,OESE,3,0.0,0.0,1.0,,0.0
+Department of Education,OET,1,0.0,0.0,1.0,,0.0
+Department of Education,OFO,4,0.0,0.0,1.0,,0.0
+Department of Education,OGC,4,0.0,0.0,1.0,,0.0
+Department of Education,OPE,5,0.0,0.0,1.0,,0.0
+Department of Education,OSERS,6,0.0,0.0,1.0,,0.0
+Department of Education,OUS,3,0.0,0.0,1.0,,0.0
+Department of Energy,ANL - Argonne National Laboratory (SC43 OIM),3,0.0,0.0,0.278,0.167,0.0
+Department of Energy,EE HQ - EE Headquarters (EE),2,0.0,0.0,1.0,0.0,
+Department of Energy,EHSS HQ -  Office of Environment Health Safety & Security (EHSS),6,0.0,0.5,0.486,0.3,0.0
+Department of Energy,FNAL - Fermi National Accelerator (SC43 OIM),11,0.0,0.0,0.0,0.045,0.0
+Department of Energy,GDO HQ -  Grid Deployment Office (GDO),1,0.0,0.0,0.0,,
+Department of Energy,HC HQ -  Office of the Chief Human Capital Officer (HC),1,0.0,0.0,0.333,0.0,
+Department of Energy,IM-50 - Architecture Engineering Technology and Innovation (IM),4,0.0,0.0,1.0,,
+Department of Energy,KCNSC - Kansas City National Security Campus (KCFO),3,0.0,0.0,0.25,0.167,0.0
+Department of Energy,LANL - Los Alamos National Lab (LAFO),5,0.0,0.0,0.267,0.5,0.0
+Department of Energy,LM HQ - Office of Legacy Management (LM),3,0.0,0.0,0.292,0.5,0.0
+Department of Energy,NA-IM (Enterprise) – Office of the Associate Administrator for Information Management and Chief Information Officer (HQ-Enterprise) (NNSA HQ),1,0.0,0.0,,,
+Department of Energy,NE INL - NE Idaho National Laboratory (NE),4,0.0,0.0,0.5,0.0,0.0
+Department of Energy,NREL - National Renewable Energy Laboratory (EE),6,0.0,0.0,0.333,0.833,0.0
+Department of Energy,PA HQ -  Office of Public Affairs (PA),1,0.0,0.0,1.0,,
+Department of Energy,PM HQ -  Office of Project Management (PM),1,0.0,0.0,0.333,0.0,
+Department of Energy,PNNL - Pacific Northwest National Laboratory (SC43 OIM),7,0.0,0.0,,,
+Department of Energy,PPPL - Princeton Plasma Physics Laboratory (SC43 OIM),3,0.0,0.0,0.0,0.5,0.0
+Department of Energy,RL - Hanford - Richland Operations Office - Hanford (EM),5,0.0,0.0,0.533,0.0,0.0
+Department of Energy,SEPA - Southeastern Power Administration (PMA),1,0.0,0.0,,,
+Department of Energy,SLAC - SLAC National Accelerator Laboratory (SC43 OIM),5,0.0,0.0,0.067,0.0,
+Department of Energy,SRS - SRNL - Savannah River Site - Savannah River National Laboratory (EM),2,0.0,0.0,0.125,0.75,0.0
+Department of Energy,Y-12 - Consolidated Nuclear Security Y-12 (NPO),4,0.0,0.0,0.208,0.5,0.75
+Department of Health and Human Services,ACF,15,0.0,0.133,0.556,0.167,
+Department of Health and Human Services,AHRQ,6,0.0,0.0,0.556,0.0,
+Department of Health and Human Services,ASPR,12,0.0,0.0,0.03,0.1,
+Department of Health and Human Services,CDC,55,0.0,0.0,0.483,0.042,
+Department of Health and Human Services,CMS,41,0.0,0.0,0.547,0.059,
+Department of Health and Human Services,DAB,3,0.0,0.0,0.667,,
+Department of Health and Human Services,FDA,27,0.0,0.0,0.457,0.0,
+Department of Health and Human Services,HHS,15,0.0,0.0,,,
+Department of Health and Human Services,HRSA,6,0.333,0.0,0.667,0.0,
+Department of Health and Human Services,NIH,82,0.0,0.0,0.133,0.19,
+Department of Health and Human Services,OASH,4,0.0,0.0,0.111,0.0,
+Department of Health and Human Services,OCIO,1,0.0,0.0,1.0,,
+Department of Health and Human Services,SAMHSA,4,0.0,0.0,,,
+Department of Homeland Security,CBP,63,0.159,0.016,0.74,0.174,0.0
+Department of Homeland Security,CISA,15,0.0,0.0,0.75,0.25,
+Department of Homeland Security,CWMD,1,0.0,0.0,1.0,,
+Department of Homeland Security,DHS,4,0.0,0.0,1.0,0.0,
+Department of Homeland Security,FEMA,10,0.0,0.0,0.238,0.0,
+Department of Homeland Security,ICE,25,0.12,0.0,0.769,0.067,0.0
+Department of Homeland Security,MGMT,10,0.0,0.0,0.556,0.0,
+Department of Homeland Security,OHS,4,0.0,0.0,,,
+Department of Homeland Security,TSA,19,0.158,0.0,0.532,0.375,0.0
+Department of Homeland Security,USCG,2,0.0,0.0,0.0,0.0,
+Department of Homeland Security,USCIS,29,0.31,0.0,0.726,0.125,0.0
+Department of Homeland Security,USSS,1,1.0,0.0,1.0,0.5,0.0
+Department of Housing and Urban Development,Ginnie Mae ,3,0.0,0.0,0.667,0.0,
+Department of Housing and Urban Development,Office of Public Affairs (OPA),1,0.0,0.0,0.5,1.0,0.0
+Department of Housing and Urban Development,Office of the Chief Financial Officer (OCFO),2,0.0,0.0,0.75,0.0,
+Department of Justice,ATF,38,0.447,0.026,,,
+Department of Justice,ATR,6,0.167,0.0,,,
+Department of Justice,CIV,1,0.0,0.0,,,
+Department of Justice,COPS,1,0.0,0.0,,,
+Department of Justice,CRM,4,0.75,0.0,,,
+Department of Justice,CRT,8,0.375,0.0,,,
+Department of Justice,DEA,39,0.179,0.026,,,
+Department of Justice,Department-wide,11,0.091,0.0,,,
+Department of Justice,ENRD,6,0.0,0.0,,,
+Department of Justice,EOUSA,4,1.0,0.0,,,
+Department of Justice,FBI,19,0.263,0.053,,,
+Department of Justice,FBOP,35,0.257,0.086,,,
+Department of Justice,JMD,6,0.0,0.0,,,
+Department of Justice,NSD,2,0.5,0.0,,,
+Department of Justice,OCDETF,11,0.0,0.0,,,
+Department of Justice,OIG,8,0.375,0.0,,,
+Department of Justice,OJP,6,0.333,0.0,,,
+Department of Justice,OPR,1,1.0,0.0,,,
+Department of Justice,PAO,5,0.0,0.0,,,
+Department of Justice,PARDON,5,1.0,0.0,,,
+Department of Justice,PAROLE,1,0.0,0.0,,,
+Department of Justice,PRAO,1,0.0,0.0,,,
+Department of Justice,TAX,5,0.2,0.0,,,
+Department of Justice,USMS,10,0.5,0.1,,,
+Department of Justice,USNCB,5,0.8,0.0,,,
+Department of Justice,USTP,2,0.0,0.0,,,
+Department of Labor,BLS,9,0.0,0.0,0.63,0.5,
+Department of Labor,CEO ,1,0.0,0.0,0.333,1.0,
+Department of Labor,Department Wide Initiative,2,0.0,0.0,,,
+Department of Labor,EBSA,1,0.0,0.0,0.667,0.5,
+Department of Labor,EBSA||OHR,1,0.0,0.0,0.667,0.0,
+Department of Labor,ETA,4,0.0,0.0,0.333,0.0,
+Department of Labor,OCIO,37,0.0,0.0,0.542,0.0,
+Department of Labor,ODEP,1,0.0,0.0,0.667,1.0,
+Department of Labor,OSHA,6,0.167,0.0,0.5,0.0,1.0
+Department of Labor,OSPE,1,0.0,0.0,0.0,0.0,
+Department of Labor,OTAA,1,0.0,0.0,0.667,1.0,
+Department of Labor,OWCP,4,0.25,0.0,1.0,0.0,
+Department of Labor,OWCP||VETS||WHD,1,0.0,0.0,0.5,0.0,
+Department of Labor,WHD,1,0.0,0.0,,,
+Department of State,A/GO,3,0.0,0.0,,,
+Department of State,A/PRI/LS,1,0.0,0.0,0.0,,
+Department of State,A/PRI/TI,1,0.0,0.0,,,
+Department of State,BP/RPBI,1,0.0,0.0,,,
+Department of State,CA/CST,8,0.0,0.0,,,
+Department of State,CSO,5,0.0,0.0,0.0,,
+Department of State,DT,2,0.0,0.0,,,
+Department of State,DT/BMP/ITA/SSM,1,0.0,0.0,,,
+Department of State,DT/DCIO/CO/A&A,1,0.0,0.0,,,
+Department of State,F,2,0.0,0.0,,,
+Department of State,FSI/EX,3,0.0,0.0,,,
+Department of State,FSI/EX/EDS,1,0.0,0.0,,,
+Department of State,J,1,0.0,0.0,0.0,,
+Department of State,J/TIP,1,0.0,0.0,,,
+Department of State,M/SS/CFA,3,0.0,0.0,0.667,0.0,
+Department of State,PM,1,0.0,0.0,0.0,,
+Department of State,R/ECA/EX/IT,1,0.0,0.0,,,
+Department of State,R/GEC,11,0.0,0.0,0.0,,
+Department of State,R/GPA/RA,3,0.0,0.0,,,
+Department of State,WHA/EX,1,0.0,0.0,,,
+Department of Transportation,CAIO,3,0.0,0.0,0.0,0.0,
+Department of Transportation,"CAIO, FAA, OST-R, Volpe, OCIO",1,0.0,0.0,0.0,0.0,
+Department of Transportation,"CAIO, HASS, Volpe",2,0.0,0.0,0.25,0.0,
+Department of Transportation,"CAIO, NETT",2,0.0,0.0,0.0,0.0,
+Department of Transportation,"CAIO, OCIO, OST-P, OST-M, NETT",1,0.0,0.0,0.0,0.0,
+Department of Transportation,"CAIO, OST-M, FHWA, OCIO",1,0.0,0.0,0.0,0.0,
+Department of Transportation,"CAIO, OST-M, OCIO, OIE",1,0.0,0.0,0.0,0.0,
+Department of Transportation,"CAIO, OST-P, OCIO, OST-R",1,0.0,0.0,0.0,0.0,
+Department of Transportation,"CAIO, OST-R, OCIO",1,0.0,0.0,0.0,0.0,
+Department of Transportation,"CAIO, Volpe, OST-R",1,0.0,0.0,0.5,0.0,
+Department of Transportation,FAA AFN,3,0.0,0.0,0.333,0.0,
+Department of Transportation,FAA AGC,3,0.0,0.0,0.0,0.0,
+Department of Transportation,FAA AHR,1,0.0,0.0,0.5,0.0,
+Department of Transportation,FAA AJO,22,0.0,0.0,0.409,0.0,
+Department of Transportation,FAA ANG,3,0.0,0.0,0.5,0.0,
+Department of Transportation,FAA APL,1,0.0,0.0,0.5,0.0,
+Department of Transportation,FAA AVS,9,0.0,0.0,0.444,0.0,
+Department of Transportation,FHWA,2,0.0,0.0,0.25,0.0,
+Department of Transportation,FHWA Turner-Fairbank,1,0.0,0.0,0.5,0.0,
+Department of Transportation,FRA,3,0.0,0.0,0.167,0.0,
+Department of Transportation,NHTSA,3,0.0,0.0,0.333,0.0,
+Department of Transportation,"OIE, CAIO, OST-R, OCIO",1,0.0,0.0,0.0,0.0,
+Department of Veterans Affairs,NCA: National Cemetery Administration,1,1.0,0.0,,,
+Department of Veterans Affairs,"OALC: Office of Acquisitions Logistics, and Construction",1,0.0,0.0,0.0,0.0,
+Department of Veterans Affairs,OAWP: Office of Accountability and Whistleblower Protection,1,0.0,0.0,,,
+Department of Veterans Affairs,OEHRM: Office of Electronic Health Record Modernization,1,0.0,0.0,,,
+Department of Veterans Affairs,OIT: Office of Information & Technology,19,0.0,0.105,0.667,0.143,
+Department of Veterans Affairs,OM: Office of Management,1,0.0,0.0,0.0,0.0,
+Department of Veterans Affairs,OSVA: Office of the Secretary,1,0.0,0.0,1.0,,
+Department of Veterans Affairs,VBA: Veterans Benefits Administration,12,0.333,0.0,0.659,0.182,0.0
+Department of Veterans Affairs,VEO: Veterans Experience Office,3,0.0,0.333,1.0,0.0,
+Department of Veterans Affairs,VHA: Veterans Health Administration,187,0.016,0.037,0.369,0.024,0.222
+Department of Veterans Affairs ,OIG,2,0.0,0.0,0.167,0.0,0.0
+Department of the Interior,BOEM,1,0.0,0.0,,,
+Department of the Interior,BOR,13,0.0,0.0,0.0,,
+Department of the Interior,BSEE,6,0.0,0.0,0.0,0.0,
+Department of the Interior,BTFA,1,0.0,0.0,,,
+Department of the Interior,FWS,7,0.0,0.0,0.048,0.143,
+Department of the Interior,IBC,1,0.0,0.0,,,
+Department of the Interior,NPS,7,0.0,0.0,,1.0,
+Department of the Interior,OCIO,4,0.0,0.0,0.0,0.0,
+Department of the Interior,ONRR,6,0.0,0.0,0.25,0.0,
+Department of the Interior,OS - Office of the Secretary of the Interior,7,0.0,0.0,0.0,0.0,
+Department of the Interior,USGS,127,0.0,0.0,0.331,1.0,
+Department of the Treasury,Bureau of the Fiscal Service,3,0.0,0.0,,,
+Department of the Treasury,DF-OCCIP,2,0.0,0.0,,,
+Department of the Treasury,Internal Revenue Service,49,0.041,0.0,0.667,0.0,
+Election Assistance Commission,Clearinghouse,1,0.0,0.0,,,
+Election Assistance Commission,OCIO,1,0.0,0.0,0.0,,0.0
+Environmental Protection Agency,Office of Air and Radiation,3,0.0,0.0,,,
+Environmental Protection Agency,Office of Enforcement and Compliance Assurance,3,0.0,0.333,0.333,0.0,
+Environmental Protection Agency,Office of Land and Emergency Management,1,0.0,0.0,1.0,,
+Environmental Protection Agency,Office of Mission Support,5,0.0,0.0,0.833,0.0,
+Environmental Protection Agency,Office of Reseach and Development,2,0.0,0.0,,,
+Environmental Protection Agency,Office of Research and Development,1,0.0,0.0,,,
+Environmental Protection Agency,Office of Water,1,0.0,0.0,0.667,0.0,
+Environmental Protection Agency,Office of the Administrator,1,0.0,0.0,,,
+Equal Employment Opportunity Commission,,8,0.0,0.0,,,
+Federal Deposit Insurance Corporation,Chief Information Officer Organization,5,0.0,0.0,1.0,,
+Federal Deposit Insurance Corporation,Corporate University,7,0.0,0.0,0.0,,
+Federal Deposit Insurance Corporation,Division of Administration,7,0.143,0.0,0.667,0.0,
+Federal Deposit Insurance Corporation,Division of Depositor & Consumer Protection,9,0.0,0.0,0.917,0.0,
+Federal Deposit Insurance Corporation,Division of Finance,11,0.0,0.0,0.778,0.0,
+Federal Deposit Insurance Corporation,Division of Insurance & Research,1,0.0,0.0,,,
+Federal Deposit Insurance Corporation,Division of Resolutions and Receiverships,9,0.0,0.0,1.0,,
+Federal Deposit Insurance Corporation,Division of Risk Management Supervision,4,0.0,0.0,,,
+Federal Deposit Insurance Corporation,Legal Division,1,0.0,0.0,,,
+Federal Deposit Insurance Corporation,Office of the Ombudsman,1,0.0,0.0,,,
+Federal Energy Regulatory Commission,,4,0.0,0.0,0.417,0.0,
+Federal Housing Finance Agency,DBR,1,0.0,0.0,0.0,0.0,
+Federal Housing Finance Agency,DHMG,1,0.0,0.0,0.0,0.0,
+Federal Housing Finance Agency,OBFM,1,0.0,0.0,,,
+Federal Housing Finance Agency,OCIO,12,0.0,0.0,,,
+Federal Housing Finance Agency,OCOO,1,0.0,0.0,,,
+Federal Housing Finance Agency,OGC,2,0.0,0.0,,,
+Federal Trade Commission,BCP,6,0.0,0.0,0.667,0.0,
+General Services Administration,FAS,6,0.0,0.0,0.167,0.0,0.0
+General Services Administration,FAS (QP0A),1,0.0,0.0,0.0,0.0,0.0
+General Services Administration,FAS (TTS),3,0.333,0.0,0.333,0.167,0.0
+General Services Administration,FAS / GSA IT (IC),1,0.0,0.0,0.0,0.0,0.0
+General Services Administration,GSA,3,0.0,0.0,0.25,0.0,0.667
+General Services Administration,GSA IT (IC),1,0.0,0.0,0.0,0.0,0.0
+General Services Administration,GSA IT (IDE),1,0.0,0.0,0.25,0.0,0.0
+General Services Administration,GSA IT (IDT),4,0.0,0.0,0.25,0.0,0.0
+General Services Administration,OAS / OCFO,1,0.0,0.0,0.0,0.0,0.0
+General Services Administration,OGP,1,0.0,0.0,0.25,0.0,0.0
+General Services Administration,PBS,1,0.0,0.0,0.0,0.0,0.0
+General Services Administration,"PBS, GSA IT (IC)",1,0.0,0.0,0.0,0.5,0.0
+National Aeronautics and Space Administration,Ames Research Center,2,0.0,0.0,0.333,0.5,
+National Aeronautics and Space Administration,Jet Propulsion Laboratory,14,0.0,0.0,0.286,0.536,
+National Aeronautics and Space Administration,Langley Research Center,2,0.0,0.0,0.417,0.75,
+National Archives and Records Administration,,9,0.0,0.0,0.542,1.0,0.0
+National Credit Union Administration,NCUA,16,0.0,0.0,0.167,0.0,
+National Science Foundation,CISE/OAD,1,0.0,0.0,,,
+National Science Foundation,EDU/DRL,1,0.0,0.0,,,
+National Science Foundation,OCIO,2,0.0,0.0,0.333,0.0,
+National Science Foundation,OCIO/DDAI,1,0.0,0.0,,,
+National Science Foundation,OD/OGC,1,0.0,0.0,,,
+National Science Foundation,OD/OIA,2,0.0,0.0,,,
+National Science Foundation,OD/OLPA,1,0.0,0.0,,,
+National Science Foundation,OIA/EAC,1,0.0,0.0,,,
+National Science Foundation,OLPA,2,0.0,0.0,,,
+National Science Foundation,SBE/NCSES,1,0.0,0.0,1.0,,
+National Science Foundation,TIP-ITE-ENGINES,2,0.0,0.0,,,
+National Science Foundation,TIP/OAD,1,0.0,0.0,,,
+National Transportation Safety Board,NTSB,2,0.0,0.0,,,
+Office of Personnel Management,HRS/HRSES/Federal Classification Center,1,1.0,0.0,1.0,1.0,0.0
+Office of Personnel Management,OCIO/CTO,1,1.0,0.0,,,
+Pension Benefit Guaranty Corporation,Office of Information Technology (OIT) ,2,0.0,0.0,0.125,0.25,0.0
+Postal Regulatory Commission,OGC,1,0.0,0.0,0.0,0.0,
+Presidio Trust,Information Technology,5,0.0,0.0,,,
+Securities and Exchange Commission,Division of Corporate Finance (CF),2,0.0,0.0,0.5,,
+Securities and Exchange Commission,Division of Enforcement (ENF),1,0.0,0.0,1.0,0.0,
+Securities and Exchange Commission,Division of Enforcement (ENF); Division of Economic and Risk Analysis (DERA),1,0.0,0.0,0.667,0.0,
+Securities and Exchange Commission,Division of Examinations (EXAMS),8,0.0,0.0,0.778,0.0,
+Securities and Exchange Commission,Division of Investment Management (IM),1,0.0,0.0,,,
+Securities and Exchange Commission,EDGAR Business Office (EBO),1,0.0,0.0,,,
+Securities and Exchange Commission,Office of Acquisitions (OA),1,0.0,0.0,0.333,0.0,
+Securities and Exchange Commission,Office of Human Resources (OHR),3,0.0,0.0,0.556,0.0,
+Securities and Exchange Commission,Office of Information Technology (OIT),8,0.0,0.0,1.0,0.0,
+Securities and Exchange Commission,Office of the Chief Data Officer (OCDO),1,0.0,0.0,0.333,0.0,
+Securities and Exchange Commission,Strategic Hub for Innocation and Financial Technology (FinHub),1,0.0,0.0,,,
+Social Security Administration,"Office of Analytics, Review, and Oversight",9,0.667,0.0,0.481,0.0,
+Social Security Administration,Office of Human Resources,1,0.0,1.0,0.5,0.0,
+Social Security Administration,Office of Retirement and Disability Policy,2,0.5,0.0,0.833,0.5,
+Social Security Administration,Office of Transformation,2,0.0,0.0,0.5,0.5,
+Social Security Administration,Office of the Chief Information Officer,9,0.111,0.0,0.704,0.0,
+Tennessee Valley Authority,Commercial Energy Solutions,8,0.0,0.0,0.667,0.792,0.0
+Tennessee Valley Authority,Cybersecurity,12,0.0,0.0,0.667,0.0,
+Tennessee Valley Authority,Enteprise Planning,1,0.0,0.0,0.667,0.667,0.0
+Tennessee Valley Authority,Enterprise Analytics & Innovation,4,0.0,0.0,0.667,0.667,0.0
+Tennessee Valley Authority,Enterprise Planning,1,0.0,0.0,0.667,1.0,0.0
+Tennessee Valley Authority,GIS,1,0.0,0.0,0.667,1.0,0.0
+Tennessee Valley Authority,Generation Projects & Fleet Strategy,2,0.0,0.0,0.667,0.667,0.0
+Tennessee Valley Authority,Monitoring Diagnostics Management,1,0.0,0.0,1.0,1.0,0.0
+Tennessee Valley Authority,Network,2,0.0,0.0,0.667,0.0,
+Tennessee Valley Authority,Right of Way,1,0.0,0.0,0.333,0.5,0.0
+Tennessee Valley Authority,Riverfleet Management Services,1,0.0,0.0,,,
+Tennessee Valley Authority,Supply Chain   ,2,0.0,0.0,0.667,0.667,0.0
+Tennessee Valley Authority,T&I Operations,1,0.0,0.0,1.0,0.0,
+Tennessee Valley Authority,Transmission,1,0.0,0.0,0.333,0.0,
+Tennessee Valley Authority,Workforce Development,1,0.0,0.0,,,
+United States Agency for Global Media,OCIO,8,0.0,0.0,,,
+United States Agency for International Development,USAID/Bureau for Asia,1,0.0,0.0,0.0,,
+United States Agency for International Development,USAID/Bureau for Conflict Prevention and Stabilization,3,0.0,0.0,0.0,0.0,
+United States Agency for International Development,"USAID/Bureau for Democracy, Human Rights, and Governance",4,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Bureau for Global Health,6,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Bureau for Global Health (GH),10,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Bureau for Humanitarian Assistance,38,0.0,0.0,0.0,0.0,
+United States Agency for International Development,"USAID/Bureau for Inclusive Growth, Partnerships, and Innovation",9,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Bureau for Management,11,0.0,0.0,0.0,,
+United States Agency for International Development,"USAID/Bureau for Resilience, Environment, and Food Security",9,0.0,0.0,0.0,0.6,
+United States Agency for International Development,USAID/Bureau for the Middle East,3,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Colombia,13,0.077,0.0,0.153,0.0,
+United States Agency for International Development,USAID/Democratic Republic of the Congo,4,0.25,0.0,,,
+United States Agency for International Development,USAID/El Salvador,1,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Georgia,2,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Guatemala,3,0.333,0.0,0.0,0.333,0.0
+United States Agency for International Development,USAID/India,7,0.0,0.0,0.0,0.0,0.0
+United States Agency for International Development,USAID/Indonesia,1,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Jordan,1,0.0,0.0,0.0,0.5,1.0
+United States Agency for International Development,USAID/Kenya and East Africa,2,0.0,0.0,0.0,,
+United States Agency for International Development,USAID/Mali,1,0.0,0.0,0.0,,
+United States Agency for International Development,USAID/Moldova,2,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Nigeria,2,0.0,0.0,0.0,0.0,
+United States Agency for International Development,USAID/Southern Africa,1,0.0,0.0,,,
+United States Agency for International Development,USAID/Sri Lanka,1,0.0,0.0,0.0,,
+United States Agency for International Development,USAID/Ukraine,1,0.0,0.0,,,
+United States Agency for International Development,USAID/Vietnam,1,0.0,0.0,0.0,0.0,
+United States Commission on Civil Rights,ASCD/IT,1,0.0,0.0,0.0,,0.0
+United States Commission on Civil Rights,OGC,1,0.0,0.0,,,
+United States Trade and Development Agency,,4,0.0,0.0,0.333,0.0,
